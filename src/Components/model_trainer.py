@@ -97,6 +97,8 @@ class ModelTrainer:
             best_model_name = list(model_report.keys())[
                 list(model_report.values()).index(best_model_score)
             ]
+
+           
             best_model = models[best_model_name]
 
             if best_model_score<0.6:
